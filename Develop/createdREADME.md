@@ -1,42 +1,39 @@
-// function to generate markdown for README
-function generateMarkdown(data) {
-
-  return `# ${data.title}
+## Title: Readme Generator
 
 
 ## Description
-${data.description}
+Creating a command-line program that creates a readme based 
   
 
 ## Table of Contents
-  *   \`Installation\`
-  *   \`Test\`
-  *   \`Contribution\`
+  *   `Installation`
+  *   `Test`
+  *   `Contribution`
   
 ## Installation
 Use the npm install function to install the necessary dependencies to run the program. 
 
-\`\`\`
+```
 npm i
-\`\`\`
+```
 
 ## Usage
-${data.usage}
+To exepedite the process of creating good readme files. 
 
 
 ## License 
-${data.license}
+MIT
 
 ## Contribution Notes
-${data.contribution}
+undefined
 
 ## Tests
-${data.test}
+f
 
 ## Questions
-  *   name: ${data.name}
-  *   email: ${data.email}
-  *   github: https://www.github.com/${data.github}
+  *   name: Mattthew Huus
+  *   email: matthew.huus3@gmail.com
+  *   github: https://www.github.com/matt98h
 
 
 
@@ -48,11 +45,7 @@ clean break
 Alternatively, two enter marks define a paragraph break.
 Othewise stuff that doesn't include the 2 spaces or 2 line breaks will appear on sane paragrap.
 
-It might be difficult, but consider using \`This\` in order to do the red code look and
-\`\`\`
+It might be difficult, but consider using `This` in order to do the red code look and
+```
 To do big code blocks.
-\`\`\`
-`;
-}
-
-module.exports = generateMarkdown;
+```

@@ -1,8 +1,14 @@
 var inquirer = require(`inquirer`);
 var fs = require(`fs`);
+var generateMarkdown = require("./utils/generateMarkdown");
 
 // array of objects for questions for the user
 inquirer.prompt([
+    {
+        type: `input`,
+        name: `name`,
+        message: `What is your name?`
+    },
     {
         type: `input`,
         name: `github`,
@@ -48,7 +54,12 @@ inquirer.prompt([
         type: `input`,
         name: `contributing`,
         message: `What does the user need to know about contributing to the repo?`
-    }
+    },
+    {
+        type: `input`,
+        name: `usage`,
+        message: `Explain the use case of this application.`
+    },
 
 
 
@@ -60,7 +71,7 @@ inquirer.prompt([
 
 
 ]).then(function (data) {
-    fs.writeFile("README.md", JSON.stringify(data, null, '\t'),function (err) {
+    fs.writeFile("createdREADME.md", generateMarkdown(data), function (err) {
         if (err) {
             return console.log(err);
         }
