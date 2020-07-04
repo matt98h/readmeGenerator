@@ -1,8 +1,8 @@
-## Title: Readme Generator
+# README generator
 
 
 ## Description
-Creating a command-line program that creates a readme based 
+To create simple and professional readmes quickly. 
   
 
 ## Table of Contents
@@ -11,41 +11,27 @@ Creating a command-line program that creates a readme based
   *   `Contribution`
   
 ## Installation
-Use the npm install function to install the necessary dependencies to run the program. 
-
 ```
 npm i
 ```
 
+## Test
+```
+npm test
+```
+
 ## Usage
-To exepedite the process of creating good readme files. 
+For developers looking to expedite the process of creating a readme.md file
 
 
 ## License 
-MIT
+Licensed under the MIT license.
 
 ## Contribution Notes
 undefined
 
-## Tests
-f
-
 ## Questions
-  *   name: Mattthew Huus
+  *   name: Matthew Huus
   *   email: matthew.huus3@gmail.com
   *   github: https://www.github.com/matt98h
 
-
-
-* Makes an ul
-  * Stars while tabbed make points inside of the points
-Two spaces after a line, make a  
-clean break
-
-Alternatively, two enter marks define a paragraph break.
-Othewise stuff that doesn't include the 2 spaces or 2 line breaks will appear on sane paragrap.
-
-It might be difficult, but consider using `This` in order to do the red code look and
-```
-To do big code blocks.
-```
