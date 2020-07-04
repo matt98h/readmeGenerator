@@ -2,7 +2,7 @@
 
 
 ## Description
-To create simple and professional readmes quickly. 
+creating a readme generator
   
 
 ## Table of Contents
@@ -12,7 +12,7 @@ To create simple and professional readmes quickly.
   
 ## Installation
 ```
-npm i
+npm init && npm i
 ```
 
 ## Test
@@ -21,17 +21,17 @@ npm test
 ```
 
 ## Usage
-For developers looking to expedite the process of creating a readme.md file
+developers will use it
 
 
 ## License 
-Licensed under the MIT license.
+Licensed under the None license.
 
 ## Contribution Notes
-undefined
+There currently is only one contriubutor to the website
 
 ## Questions
   *   name: Matthew Huus
-  *   email: matthew.huus3@gmail.com
+  *   email: matthew.huus3@gmail.co
   *   github: https://www.github.com/matt98h
 

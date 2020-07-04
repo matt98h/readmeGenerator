@@ -43,7 +43,7 @@ inquirer.prompt([
     {
         type: `input`,
         name: `test`,
-        message: `What command hsould be run to run tests?`
+        message: `What command should be run to run tests?`
     },
     {
         type: `input`,
@@ -52,7 +52,7 @@ inquirer.prompt([
     },
     {
         type: `input`,
-        name: `contributing`,
+        name: `contribution`,
         message: `What does the user need to know about contributing to the repo?`
     },
     {

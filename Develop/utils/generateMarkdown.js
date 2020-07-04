@@ -9,9 +9,9 @@ ${data.description}
   
 
 ## Table of Contents
-  *   [\`Installation\`]()
-  *   \`Test\`
-  *   \`Contribution\`
+  *   [\`Installation\`](# Installation)
+  *   [\`Test\`](# Test)
+  *   [\`Contribution\`](# Contribution)
   
 ## Installation
 \`\`\`
